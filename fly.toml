@@ -1,10 +1,10 @@
-# fly.toml file generated for supabase-dev-log-shipper on 2022-03-30T11:49:00-07:00
+# fly.toml file generated for supabase-log-shipper on 2022-03-30T12:00:58-07:00
 
-app = "supabase-dev-log-shipper"
+app = "supabase-log-shipper"
 
 
 [env]
-  ORG = "supabase-dev"
+  ORG = "supabase"
 
 [metrics]
   path = "/metrics"
