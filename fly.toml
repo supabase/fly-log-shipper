@@ -1,5 +1,11 @@
-app = "fly-log-shipper-example"
+# fly.toml file generated for supabase-dev-log-shipper on 2022-03-30T11:49:00-07:00
+
+app = "supabase-dev-log-shipper"
+
+
+[env]
+  ORG = "supabase-dev"
 
 [metrics]
-  port = 9598
   path = "/metrics"
+  port = 9598
